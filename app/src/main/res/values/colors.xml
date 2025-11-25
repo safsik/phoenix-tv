@@ -1,0 +1,14 @@
+<resources>
+    <color name="youtube_red">#FF0000</color>
+    <color name="dark_background">#121212</color>
+    <color name="light_gray">#424242</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="background_gradient_start">#000000</color>
+    <color name="background_gradient_end">#DDDDDD</color>
+    <color name="fastlane_background">@color/light_gray</color>
+    <color name="search_opaque">@color/youtube_red</color>
+    <color name="selected_background">@color/youtube_red</color>
+    <color name="default_background">@color/dark_background</color>
+</resources>
