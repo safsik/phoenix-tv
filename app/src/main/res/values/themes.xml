@@ -3,9 +3,9 @@
     <style name="Theme.WatchPhoenixTV" parent="@style/Theme.Leanback.Browse">
         <item name="android:colorPrimary">@color/youtube_red</item>
         <item name="android:windowBackground">@color/dark_background</item>
-        <item name="playbackControlsButtonStyle">@style/CustomPlaybackControlButton</item>
         <item name="browseRowsMarginStart">100dp</item>
         <item name="browseRowsMarginTop">50dp</item>
+        <item name="headerStyle">@style/HeaderRowStyle</item>
     </style>
 
     <style name="Theme.WatchPhoenixTV.Error" parent="@style/Theme.Leanback" />
@@ -15,11 +15,13 @@
         <item name="android:paddingEnd">50dp</item>
     </style>
 
-    <style name="CustomPlaybackControlButton" parent="Widget.Leanback.PlaybackControls.Primary.ActionButton">
+    <style name="CustomPlaybackControlButton" parent="android:Widget.Button">
         <item name="android:background">@drawable/custom_button_background</item>
+
         <item name="android:tint">@color/playback_control_tint_selector</item>
-        <item name="android:width">120dp</item>
-        <item name="android:height">120dp</item>
+
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">120dp</item>
     </style>
 
 </resources>
