@@ -1,0 +1,28 @@
+<resources>
+
+    <style name="Theme.WatchPhoenixTV" parent="Theme.Leanback.Browse">
+        <item name="android:colorPrimary">@color/youtube_red</item>
+        <item name="android:windowBackground">@color/dark_background</item>
+        <item name="browseRowsMarginStart">100dp</item>
+        <item name="browseRowsMarginTop">50dp</item>
+        <item name="headerStyle">@style/HeaderRowStyle</item>
+    </style>
+
+    <style name="Theme.WatchPhoenixTV.Error" parent="Theme.Leanback">
+        <!-- Optional: add overrides for your error theme here -->
+    </style>
+
+    <style name="HeaderRowStyle" parent="@style/Widget.Leanback.Header">
+        <item name="android:paddingStart">50dp</item>
+        <item name="android:paddingEnd">50dp</item>
+    </style>
+
+    <!-- Fixed: use a valid framework/AppCompat widget style as parent -->
+    <style name="CustomPlaybackControlButton" parent="@android:style/Widget.ImageButton">
+        <item name="android:background">@drawable/custom_button_background</item>
+        <item name="android:tint">@color/playback_control_tint_selector</item>
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">120dp</item>
+    </style>
+
+</resources>
