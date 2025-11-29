@@ -1,0 +1,96 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Flutter
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Android
+/android/app/src/main/assets/flutter_assets/
+/android/app/src/main/java/io/flutter/plugins/
+/android/app/src/main/jniLibs/
+/android/app/build/
+/android/app/build/
+/android/.gradle/
+/android/gradle/
+/android/local.properties
+
+# iOS
+/ios/Flutter/App.framework
+/ios/Flutter/engine
+/ios/Flutter/flutter_assets
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/Debug.xcconfig
+/ios/Flutter/Release.xcconfig
+/ios/Pods/
+/ios/Runner/GeneratedPluginRegistrant.*
+/ios/Runner.xcworkspace/
+/ios/Runner.xcodeproj/project.xcworkspace/
+/ios/Runner.xcodeproj/xcuserdata/
+/ios/build/
+/ios/.symlinks/
+/ios/Flutter/flutter_export_environment.sh
+
+# Web
+/web/
+# Build generated files
+/web/main.dart.js
+/web/main.dart.js.deps
+/web/main.dart.js.map
+/web/main.dart.js.tar.gz
+
+# Windows
+/windows/flutter/ephemeral
+/windows/flutter/generated_plugins.cmake
+/windows/runner/Debug/
+/windows/runner/Release/
+/windows/runner/Profile/
+/windows/runner/Generated Files/
+/windows/runner/project.xcworkspace/
+/windows/runner.sln
+/windows/runner.VC.db
+/windows/runner.vcxproj.user
+
+# Linux
+/linux/flutter/ephemeral
+/linux/flutter/generated_plugins.cmake
+/linux/runner/Debug
+/linux/runner/Release
+/linux/runner/Profile
+/linux/runner/CMakeCache.txt
+/linux/runner/cmake_install.cmake
+/linux/runner/Makefile
+/linux/runner/project.xcworkspace
+/linux/runner.desktop
+/linux/runner.sln
+
+# macOS
+/macos/Flutter/ephemeral
+/macos/Flutter/Generated.xcconfig
+/macos/Flutter/Debug.xcconfig
+/macos/Flutter/Release.xcconfig
+/macos/Flutter/Flutter-Generated.xcconfig
+/macos/Pods/
+/macos/Runner/GeneratedPluginRegistrant.swift
+/macos/Runner.xcworkspace/
+/macos/build/
+/macos/.symlinks/
+/macos/Flutter/Flutter_export_environment.sh
